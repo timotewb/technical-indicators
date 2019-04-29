@@ -19,6 +19,8 @@ def exponentialMovingAverage(periodEMA, data):
         elif i > p-1:
             #--- the EMA calculation
             out[i] = ((data[i] - out[i-1]) * m) + out[i-1]
+            #--- mathematically equivalent
+            #    out[i] = m * data[i] + (1-m) * out[i-1]
         elif i < p-1:
             out[i] = np.nan
 
