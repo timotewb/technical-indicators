@@ -15,3 +15,6 @@ Double Exponential Moving Average (DEMA)
 
 ###### 05. trippleExponentialMovingAverage
 Tripple Exponential Moving Average (TEMA)
+
+###### 06. triangularMovingAverage
+Triangular Moving Average (TMA)
