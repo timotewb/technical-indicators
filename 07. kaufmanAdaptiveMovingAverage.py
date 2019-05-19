@@ -57,7 +57,15 @@ def kaufmanAdaptiveMovingAverage(periodKAMA, fastEMA_KAMA, slowestEMA_KAMA, data
             
             kama[i] = kama[i-1] + sc[i] * (data[i] - kama[i-1])
 
-        else:
+        elif i = 1:
+            prev_cur[i] = np.nan
+            change[i] = np.nan
+            volatility[i] = np.nan
+            er[i] = np.nan
+            sc[i] = np.nan
+            kama[i] = np.nan
+            
+       else:
             prev_cur[i] = np.nan
             change[i] = np.nan
             volatility[i] = np.nan
