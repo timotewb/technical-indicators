@@ -18,3 +18,6 @@ Tripple Exponential Moving Average (TEMA)
 
 ###### 06. triangularMovingAverage
 Triangular Moving Average (TMA)
+
+###### 07. kaufmanAdaptiveMovingAverage
+Kaufman Adaptive Moving Average
