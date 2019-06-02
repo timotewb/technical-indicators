@@ -1,5 +1,4 @@
 def simpleMovingAverage(periodSMA, data):
-    #--- codersnotepad.com
     
     #--- import libraries
     import numpy as np
