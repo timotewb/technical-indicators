@@ -1,5 +1,9 @@
 def simpleMovingAverage(periodSMA, data):
     
+    #--- Simple Moving Average
+    # data: array of percentage change values in decimals
+    # periodSMA: integer, number of periods form time series array to include in calculation
+    
     #--- import libraries
     import numpy as np
     
