@@ -1,7 +1,7 @@
 def simpleMovingAverage(periodSMA, data):
     
     #--- Simple Moving Average
-    # data: array of percentage change values in decimals
+    # data: array, time series data e.g. daily close prices
     # periodSMA: integer, number of periods form time series array to include in calculation
     
     #--- import libraries
