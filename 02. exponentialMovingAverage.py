@@ -1,7 +1,7 @@
 def exponentialMovingAverage(periodEMA, data):
     
     #--- Exponential Moving Average
-    # data: array of percentage change values in decimals
+    # data: array, time series data e.g. daily close prices
     # periodEMA: integer, number of periods form time series array to include in calculation
     
     #--- import libraries
