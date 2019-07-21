@@ -8,9 +8,9 @@ def exponentialMovingAverage(periodEMA, data):
     import numpy as np
     
     #--- define variables
-    p = periodEMA        # period value form self
-    s = data[:p].sum()/p      # the first simple moving average
-    m = 2/(p+1)               # weighting factor
+    p = periodEMA               # period value form self
+    s = data[:p].sum()/p        # the first simple moving average
+    m = 2/(p+1)                 # weighting factor
 
     #--- define output array
     out = np.zeros(len(data))
