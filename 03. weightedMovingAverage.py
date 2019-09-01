@@ -1,4 +1,8 @@
 def weightedMovingAverage(periodWMA, data):
+    
+    #--- Exponential Moving Average
+    # data: array, time series data e.g. daily close prices
+    # periodWMA: integer, number of periods form time series array to include in calculation
 
     from numba import jit
     import numpy as np
