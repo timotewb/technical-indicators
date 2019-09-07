@@ -1,5 +1,10 @@
 def doubleExponentialMovingAverage(periodDEMA, data):
     
+    #--- Double Exponential Moving Average
+    # data: array, time series data e.g. daily close prices
+    # periodDEMA: integer, number of periods form time series array to include in calculation
+    
+    #--- import libraries
     import numpy as np
     
     p = periodDEMA
@@ -12,7 +17,7 @@ def doubleExponentialMovingAverage(periodDEMA, data):
     out_d = np.zeros(len(data))
 
     for i in range(len(data)):
-        #--- use SMA for first DEMA value
+        #--- where data item is the p'th item use the SMA
         if i == p-1:
             out[i] = s
             out_ee[i] = s
